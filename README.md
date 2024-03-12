@@ -8,15 +8,14 @@ Siga estas etapas para executar o projeto:
 
 1. Rodar o back (baseproject)
 
-1.1 Criar o banco de dados baseapi no postgres
-1.2 Configurar usuário e senha do banco no arquivo application.yml
-1.3 Na IDE de sua preferência (utilizei o STS), rodar a classe BaseprojectApplication
+- Criar o banco de dados baseapi no postgres
+- Configurar usuário e senha do banco no arquivo application.yml
+- Na IDE de sua preferência (utilizei o STS), rodar a classe BaseprojectApplication
 
 2. Rodar o front (baseprojectweb)
 
-2.1 npm install --legacy-peer-deps
-2.2 ng serve
-
+- npm install --legacy-peer-deps
+- ng serve
 - Acessar http://localhost:4200 do seu navegador.
 
 ## Conhecendo o projeto
