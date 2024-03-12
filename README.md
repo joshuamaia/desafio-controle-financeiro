@@ -1,4 +1,4 @@
-# Desafio - Sistema Financeiro
+# Desafio - Controle Financeiro
 
 Este é um sistema web composto por um Front-end SPA (Single Page Application) desenvolvido em Angular e um Back-end em Java Spring Boot.
 
@@ -15,11 +15,9 @@ Siga estas etapas para executar o projeto:
 2. Rodar o front (baseprojectweb)
 
 2.1 npm install --legacy-peer-deps
-
 2.2 ng serve
 
-- A aplicação será executada completamente, com backend, frontend e banco de dados.
-- Ela estará disponível no endereço http://localhost:4200 do seu navegador.
+- Acessar http://localhost:4200 do seu navegador.
 
 ## Conhecendo o projeto
 
