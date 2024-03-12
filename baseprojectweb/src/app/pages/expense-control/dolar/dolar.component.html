@@ -1,0 +1,62 @@
+<div
+  class="modal fade"
+  id="detaildolar"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content detail-css">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Dolar Agora</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="card">
+          <div class="card-header">Dolar Agora</div>
+          <div class="card-body">
+            <table class="table">
+              <tbody>
+                <tr class="table-rows">
+                  <td class="header-dialog-colunm">Nome:</td>
+                  <td>
+                    {{ dolar.USDBRL.name }}
+                  </td>
+                </tr>
+                <tr class="table-rows">
+                  <td class="header-dialog-colunm">Alta:</td>
+                  <td>
+                    {{ dolar.USDBRL.high }}
+                  </td>
+                </tr>
+                <tr class="table-rows">
+                  <td class="header-dialog-colunm">Baixa:</td>
+                  <td>
+                    {{ dolar.USDBRL.low }}
+                  </td>
+                </tr>
+                <tr class="table-rows">
+                  <td class="header-dialog-colunm">Valor:</td>
+                  <td>
+                    {{ dolar.USDBRL.bid }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+            Sair
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
